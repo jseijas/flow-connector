@@ -38,3 +38,9 @@ let chatConnector = new builder.ChatConnector({
 });
 multiConnector.addConnector('default', chatConnector);
 ```
+
+## Implemented clients
+
+Currently two clients are implemented, but in draft mode (currently only text supported):
+* Slack
+* Facebook

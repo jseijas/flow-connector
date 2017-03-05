@@ -1,6 +1,6 @@
 {
   "name": "flow-connector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flow connectors",
   "main": "lib/index.js",
   "scripts": {
@@ -38,6 +38,7 @@
   "dependencies": {
     "@slack/client": "^3.8.1",
     "async": "^2.1.5",
-    "moment": "^2.17.1"
+    "moment": "^2.17.1",
+    "request": "^2.80.0"
   }
 }
